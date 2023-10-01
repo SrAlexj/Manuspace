@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">ManuSpace</string>
+    /*
+    MENU
+    */
+    <string name="menutitulo">CALCULO DEL ÁREA DE UNA PLANTA CON EL MÉTODO DE GUERCHET</string>
+    <string name="anadirplanta">AÑADIR PLANTA</string>
+    <string name="verplanta">VER PLANTAS</string>
+
+    /*
+    PLANTA
+    */
+    <string name="btanadirarea">AÑADIR ÁREA</string>
+    <string name="btverarea">VER ÁREAS</string>
+    <string name="btcalcarea">CALCULAR ÁREA</string>
+    <string name="btatras">ATRÁS</string>
+    <string name="nombplanta">PLANTA 1</string>
+    <string name="nombplantalist">PLANTAS</string>
+    <string name="nombplantahint">Nombre de la planta</string>
+    /*
+    AREAS
+    */
+    <string name="btanadiref">AÑADIR ELEMENTO FIJO</string>
+    <string name="btveref">VER ELEMENTOS FIJOS</string>
+    <string name="btcalcarean">CALCULAR ÁREA</string>
+    <string name="btanadirem">AÑADIR ELEMENTO MÓVIL</string>
+    <string name="btverem">VER ELEMENTOS MÓVILES</string>
+    <string name="nombareahint">Nombre del área</string>
+    <string name="nombarea">ÁREA 1</string>
+
+    /*
+    Elementos fijos
+    */
+    <string name="elementofijo">ELEMENTO FIJO N</string>
+    <string name="nombrelementofijohint">Nombre</string>
+    <string name="dimensionamiento">DIMENSIONAMIENTO: </string>
+    <string name="rbrectang">Rectangular</string>
+    <string name="rbcircu">Circular</string>
+    <string name="largo">LARGO</string>
+    <string name="ancho">ANCHO</string>
+    <string name="alto">ALTO</string>
+    <string name="radio">RADIO</string>
+    <string name="lados">LADOS (N):</string>
+    <string name="ladosdesc">Número de lados por los que la máquina se puede operar.</string>
+    <string name="almacenamiento">ÁREA DE ALMACENAMIENTO</string>
+    <string name="rbopsi">Sí</string>
+    <string name="rbopno">No</string>
+    <string name="cantidad">CANTIDAD DE EQUIPOS:</string>
+    <string name="cantidadal">CANTIDAD DE ALMACENAMIENTO:</string>
+    <string name="cantdesc">Número de máquinas con las mismas caracterisiticas ingresadas arriba.</string>
+    <string name="cantalm">Número de espacios de almacenamiento con las mismas caracteristicas ingresadas arriba.</string>
+    <string name="btanadir">AÑADIR</string>
+
+    /*
+    ELEMENTOS MOVILES
+    */
+    <string name="elementomovil">ELEMENTO MOVIL N</string>
+    <string name="nombrelementomovilhint">Nombre</string>
+    <string name="tipoem">TIPO</string>
+    <string name="rbequiposaca">Equipo de acarreo</string>
+    <string name="rboperario">Operario</string>
+
+    /*
+    AREA DE AREAS
+    */
+    <string name="areadearea">EL ÁREA MÍNIMA NECESARIA ES DE: </string>
+    <string name="areacompleta">00</string>
+    <string name="raizlado">00</string>
+
+    /*
+    AREA DE PLANTAS
+    */
+
+    <string name="areacompletaplanta">00</string>
+    <string name="raizladoplanta">00</string>
+
+    /*
+    AREA DE PLANTAS
+    */
+    <string name="nombeflista">ELEMENTOS FIJOS</string>
+    <string name="nombemlista">ELEMENTOS MOVILES</string>
+    <string name="nombarealist">ÁREAS</string>
+    <string name="nombreeflista">NOMBRE</string>
+
+    <string name="logoprincipal">logo principal</string>
+
+
+</resources>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElementosMoviles"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/tvnombrearea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="40dp"
+            android:editable="true"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/nombarea"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tvelementomovil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/elementomovil"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nombreem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:fontFamily="@font/inter"
+            android:hint="@string/nombrelementomovilhint"
+            android:inputType="text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvtipoem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/tipoem"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/rgtipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbequiposacaem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:fontFamily="@font/inter"
+                android:onClick="mostrartipo"
+                android:text="@string/rbequiposaca" />
+
+            <RadioButton
+                android:id="@+id/rboperario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/inter"
+                android:onClick="mostrartipo"
+                android:text="@string/rboperario" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lyequipoacarreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvlargoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/largo"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/largoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/inter"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvanchoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/ancho"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/anchoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/inter"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvaltoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/alto"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/altoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/inter"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvcantem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/cantidad"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/cantidadem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/inter"
+                    android:inputType="number"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyoperarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/tvcantopem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/cantidad"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/cantoperarioem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/inter"
+                    android:inputType="number"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btatrasem"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:onClick="atrasem"
+                android:text="@string/btatras"
+                android:textAllCaps="false"
+                android:textColor="@color/atras" />
+
+            <Button
+                android:id="@+id/btanadirem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/botoneditores"
+                android:onClick="onClick"
+                android:text="@string/btanadir" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

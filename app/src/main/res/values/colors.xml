@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="botoneditores">#102940</color>
+    <color name="botonvisual">#265B6D</color>
+    <color name="botoncalcular">#4E94BF</color>
+    <color name="atras">#3D3F43</color>
+    <color name="fondo">#F1F1F1</color>
+
+</resources>

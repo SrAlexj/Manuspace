@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Areas">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="220dp"
+            app:srcCompat="@drawable/logoprincipal" />
+
+        <TextView
+            android:id="@+id/tvnombrearea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/nombarea"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/etnombrearea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+
+            android:ems="10"
+            android:hint="@string/nombareahint"
+            android:inputType="text"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btanadiref"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/botoneditores"
+                android:clickable="true"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/btanadiref"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btveref"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/botonvisual"
+                android:clickable="true"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/btveref"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btanadirem"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/botoneditores"
+                android:clickable="true"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/btanadirem"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btverem"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/botonvisual"
+                android:clickable="true"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/btverem"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btcalculararean"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/botoncalcular"
+                android:clickable="true"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/btcalcarean"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btatrasarea"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:text="@string/btatras"
+                android:textColor="@color/atras"
+                app:strokeColor="@color/black" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
